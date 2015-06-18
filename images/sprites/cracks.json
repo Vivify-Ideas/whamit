@@ -1,0 +1,92 @@
+{"frames": [
+
+{
+	"filename": "0",
+	"frame": {"x":874,"y":2,"w":276,"h":225},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":276,"h":225},
+	"sourceSize": {"w":276,"h":225}
+},
+{
+	"filename": "1",
+	"frame": {"x":563,"y":229,"w":255,"h":225},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":255,"h":225},
+	"sourceSize": {"w":255,"h":225}
+},
+{
+	"filename": "2",
+	"frame": {"x":563,"y":229,"w":255,"h":225},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":255,"h":225},
+	"sourceSize": {"w":255,"h":225}
+},
+{
+	"filename": "3",
+	"frame": {"x":285,"y":229,"w":276,"h":225},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":276,"h":225},
+	"sourceSize": {"w":276,"h":225}
+},
+{
+	"filename": "4",
+	"frame": {"x":304,"y":2,"w":289,"h":225},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":289,"h":225},
+	"sourceSize": {"w":289,"h":225}
+},
+{
+	"filename": "5",
+	"frame": {"x":2,"y":2,"w":300,"h":200},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":200},
+	"sourceSize": {"w":300,"h":200}
+},
+{
+	"filename": "6",
+	"frame": {"x":1059,"y":229,"w":150,"h":225},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":150,"h":225},
+	"sourceSize": {"w":150,"h":225}
+},
+{
+	"filename": "7",
+	"frame": {"x":595,"y":2,"w":277,"h":225},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":277,"h":225},
+	"sourceSize": {"w":277,"h":225}
+},
+{
+	"filename": "8",
+	"frame": {"x":820,"y":229,"w":237,"h":225},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":237,"h":225},
+	"sourceSize": {"w":237,"h":225}
+},
+{
+	"filename": "9",
+	"frame": {"x":2,"y":204,"w":281,"h":225},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":281,"h":225},
+	"sourceSize": {"w":281,"h":225}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "cracks.png",
+	"format": "RGBA8888",
+	"size": {"w":1211,"h":456},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:9d6490f85a0abe2ba8072b6f7bea71d0:bf7f6ea5763273a3a607ad892b876f5e:d1177e49d7482a261170780db807b980$"
+}
+}

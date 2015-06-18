@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>Whack a Team Member</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <style type="text/css">
+          html, body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+          }
+          canvas {
+            cursor:crosshair;
+            margin: 0 auto;
+          }
+        </style>
+        <script src="bower_components/phaser/build/phaser.min.js"></script>
+        <script src="game.js"></script>
+        <script type="text/javascript">
+          window.onload = function() {
+            game = new Phaser.Game(window.innerWidth, window.innerHeight, Phaser.AUTO, 'body', { preload: this.preload, create: this.create, update: this.update }, true);
+            game.state.add('Game', WhamIt.Game);
+            var enemies = {
+              ie : 'images/sprites/internet-explorer_64x64.png',
+              konqueror : 'images/sprites/konqueror_64x64.png',
+              opera : 'images/sprites/opera_64x64.png',
+              safari : 'images/sprites/safari_64x64.png',
+              dolphin : 'images/sprites/dolphin_64x64.png',
+              chrome : 'images/sprites/chrome_64x64.png',
+              chromium : 'images/sprites/chromium_64x64.png',
+              firefox : 'images/sprites/firefox_64x64.png',
+
+              apple_iphone : 'images/sprites/apple_iphone.png',
+              asus_m530w : 'images/sprites/asus_m530w.png',
+              asus_mypal_a626 : 'images/sprites/asus_mypal_a626.png',
+              eten_g500 : 'images/sprites/eten_g500.png',
+              eten_glofiish_m700 : 'images/sprites/eten_glofiish_m700.png',
+              htc_hermes : 'images/sprites/htc_hermes.png',
+              htc_wing : 'images/sprites/htc_wing.png',
+              iphone : 'images/sprites/iphone.png',
+              motorola_q_9m : 'images/sprites/motorola_q_9m.png',
+              palm_treo_700w : 'images/sprites/palm_treo_700w.png',
+              palm_treo_750v : 'images/sprites/palm_treo_750v.png',
+              samsung_sch_i320 : 'images/sprites/samsung_sch_i320.png',
+              samsung_sch_i760 : 'images/sprites/samsung_sch_i760.png',
+            };
+            WhamIt.Game.prototype.addEnemies(enemies);
+
+            game.state.start('Game');
+          }
+        </script>
+    </head>
+    <body></body>
+</html>

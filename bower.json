@@ -1,0 +1,25 @@
+{
+  "name": "WhamIt",
+  "version": "0.0.1",
+  "authors": [
+    "Aleksandar Nikolic <sasa.n@vivifyideas.com>"
+  ],
+  "description": "Game made with Phaser",
+  "main": "main.js",
+  "keywords": [
+    "game",
+    "phaser"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.vivifyideas.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "phaser": "~2.3.0"
+  }
+}
