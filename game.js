@@ -71,8 +71,6 @@ WhamIt.Game.prototype = {
   },
 
   create: function () {
-    var text = this.add.text(this.world.width -200, this.world.height -30, "Press ESC to exit", { font: "24px Arial", fill: "#ff0044" });
-
     this.badGuys = this.add.physicsGroup(Phaser.Physics.ARCADE);
 
     for (var key in this.badGuyImages) {
@@ -98,6 +96,8 @@ WhamIt.Game.prototype = {
     this.hammer.frame = 5;
     this.hammer.animations.add('swing', [4, 3, 2, 1, 0], 30, false);
     this.hammer.anchor.set(0.02, 1);
+    
+    var text = this.add.text(this.world.width -200, this.world.height -30, "Press ESC to exit", { font: "24px Arial", fill: "#ff0044" });
   },
 
   update: function () {
