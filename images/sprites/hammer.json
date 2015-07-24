@@ -1,60 +1,44 @@
 {"frames": [
 
 {
-	"filename": "tmp-0.gif",
-	"frame": {"x":2,"y":2,"w":120,"h":246},
+	"filename": "hammer-01.png",
+	"frame": {"x":2,"y":2,"w":246,"h":443},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":118,"y":21,"w":120,"h":246},
-	"sourceSize": {"w":240,"h":280}
+	"spriteSourceSize": {"x":46,"y":26,"w":246,"h":443},
+	"sourceSize": {"w":300,"h":500}
 },
 {
-	"filename": "tmp-1.gif",
-	"frame": {"x":124,"y":2,"w":116,"h":243},
+	"filename": "hammer-02.png",
+	"frame": {"x":250,"y":2,"w":243,"h":434},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":106,"y":24,"w":116,"h":243},
-	"sourceSize": {"w":240,"h":280}
+	"spriteSourceSize": {"x":28,"y":33,"w":243,"h":434},
+	"sourceSize": {"w":300,"h":500}
 },
 {
-	"filename": "tmp-2.gif",
-	"frame": {"x":242,"y":2,"w":146,"h":187},
+	"filename": "hammer-03.png",
+	"frame": {"x":495,"y":2,"w":365,"h":398},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":20,"y":80,"w":146,"h":187},
-	"sourceSize": {"w":240,"h":280}
+	"spriteSourceSize": {"x":18,"y":35,"w":365,"h":398},
+	"sourceSize": {"w":400,"h":500}
 },
 {
-	"filename": "tmp-3.gif",
-	"frame": {"x":390,"y":2,"w":157,"h":94},
+	"filename": "hammer-04.png",
+	"frame": {"x":862,"y":2,"w":438,"h":247},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":5,"y":177,"w":157,"h":94},
-	"sourceSize": {"w":240,"h":280}
-},
-{
-	"filename": "tmp-4.gif",
-	"frame": {"x":242,"y":2,"w":146,"h":187},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":20,"y":80,"w":146,"h":187},
-	"sourceSize": {"w":240,"h":280}
-},
-{
-	"filename": "tmp-5.gif",
-	"frame": {"x":124,"y":2,"w":116,"h":243},
-	"rotated": false,
-	"trimmed": true,
-	"spriteSourceSize": {"x":106,"y":24,"w":116,"h":243},
-	"sourceSize": {"w":240,"h":280}
+	"spriteSourceSize": {"x":44,"y":90,"w":438,"h":247},
+	"sourceSize": {"w":500,"h":500}
 }],
 "meta": {
 	"app": "http://www.codeandweb.com/texturepacker",
 	"version": "1.0",
 	"image": "hammer.png",
 	"format": "RGBA8888",
-	"size": {"w":549,"h":250},
+	"size": {"w":1302,"h":447},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:267229af23d28c67d3821ee3877a979a:d790abb944f31537d932158e5c9a103f:98a1e0cd7f8188424e857faf82193bdb$"
+	"smartupdate": "$TexturePacker:SmartUpdate:3bc518a794c36be6ff9924c0fa85d0c6:aea3b063e4e2f64b9548b21e9d167fbe:98a1e0cd7f8188424e857faf82193bdb$"
 }
 }
