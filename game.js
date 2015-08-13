@@ -75,11 +75,18 @@ WhamIt.Game.prototype = {
 
     for (var key in this.badGuyImages) {
       var badGuy = this.badGuys.create(this.world.randomX, this.world.randomY, this.badGuyImages[key]);
+      if (badGuy.width >= 120) {
+        badGuy.scale.setTo(0.18,0.18);
+      } else {
+        badGuy.scale.setTo(1,1);
+      }
+
       badGuy.inputEnabled = true;
       badGuy.health = 1;
 
       badGuy.events.onInputDown.add(this.listener, this);
     }
+
 
     this.badGuys.setAll('body.collideWorldBounds', true);
     this.badGuys.setAll('body.bounce.x', 0.5);
@@ -88,16 +95,18 @@ WhamIt.Game.prototype = {
     this.badGuys.setAll('body.drag.y', 1000);
     this.badGuys.setAll('body.angularDrag', 1000);
     this.badGuys.setAll('body.allowRotation', true);
-    this.badGuys.scale.setTo(0.5,0.5);
+
 
     this.physics.startSystem(Phaser.Physics.ARCADE);
     this.hammer = this.add.sprite(this.world.centerX, this.world.centerY, 'hammer');
-    this.hammer.scale.setTo(0.75,0.75);
+    this.hammer.scale.setTo(0.5,0.5);
     this.hammer.frame = 5;
     this.hammer.animations.add('swing', [4, 3, 2, 1, 0], 30, false);
     this.hammer.anchor.set(0.02, 1);
 
     var text = this.add.text(this.world.width -200, this.world.height -30, "Press ESC to exit", { font: "24px Arial", fill: "#ffffff" });
+
+    parent.window.postMessage("stop-spiner", "*");
   },
 
   update: function () {
@@ -118,7 +127,8 @@ WhamIt.Game.prototype = {
     } else {
       sprite.crack = this.add.sprite(this.rnd.integerInRange(0, sprite.height), this.rnd.integerInRange(0, sprite.width), 'cracks', this.rnd.integerInRange(0, 8));
       sprite.crack.anchor.setTo(this.rnd.realInRange(0, 1));
-      sprite.crack.scale.setTo(0.2,0.2);
+      var scale = sprite.scale.x == 1 ? 0.2 : 0.8;
+      sprite.crack.scale.setTo(scale, scale);
       sprite.addChild(sprite.crack);
 
       sprite.health -= 0.1;
