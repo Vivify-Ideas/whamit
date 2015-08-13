@@ -102,7 +102,7 @@ WhamIt.Game.prototype = {
     this.hammer.scale.setTo(0.5,0.5);
     this.hammer.frame = 5;
     this.hammer.animations.add('swing', [4, 3, 2, 1, 0], 30, false);
-    this.hammer.anchor.set(0.02, 1);
+    this.hammer.anchor.set(0.1, 0.7);
 
     var text = this.add.text(this.world.width -200, this.world.height -30, "Press ESC to exit", { font: "24px Arial", fill: "#ffffff" });
 
