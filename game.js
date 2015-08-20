@@ -54,9 +54,11 @@ WhamIt.Game.prototype = {
   },
 
   preload: function () {
+    //version assest to bust cache
+    var version = '?v=' + 1;
     //  Here we load the assets required for our game
     for (var key in this.enemies) {
-      this.load.image(key, this.enemies[key]);
+      this.load.image(key, this.enemies[key] + version);
       this.badGuyImages.push(key);
     }
 
@@ -66,8 +68,8 @@ WhamIt.Game.prototype = {
 //    if(this.baseUrl.length === 0) {
 //      this.baseUrl = '';
 //    }
-    this.load.atlas('hammer', this.baseUrl +'images/sprites/hammer.png', this.baseUrl +'images/sprites/hammer.json');
-    this.load.atlas('cracks', this.baseUrl + 'images/sprites/cracks.png', this.baseUrl +'images/sprites/cracks.json');
+    this.load.atlas('hammer', this.baseUrl +'images/sprites/hammer.png' + version, this.baseUrl +'images/sprites/hammer.json' + version);
+    this.load.atlas('cracks', this.baseUrl + 'images/sprites/cracks.png' + version, this.baseUrl +'images/sprites/cracks.json' + version);
   },
 
   create: function () {

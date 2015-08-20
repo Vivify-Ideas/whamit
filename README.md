@@ -2,7 +2,7 @@
 
 Whamit is a simple game made with [Phaser](https://github.com/photonstorm/phaser) that lets you wham stuff with a hammer.
 
-  [Demo](https://whamit-salesan.c9.io)
+  [Demo](http://vivify-ideas.github.io/whamit/)
 
 ## Installation
 

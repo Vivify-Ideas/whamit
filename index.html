@@ -16,6 +16,11 @@
           }
         </style>
         <script src="bower_components/phaser/build/phaser.min.js"></script>
+        <script>
+        if (typeof Phaser === 'undefined') {
+            document.write(unescape("%3Cscript src='https://cdnjs.cloudflare.com/ajax/libs/phaser/2.3.0/phaser.min.js' type='text/javascript'%3E%3C/script%3E"));
+        }
+        </script>
         <script src="game.js"></script>
         <script type="text/javascript">
           window.onload = function() {
